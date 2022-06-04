@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="SmokeTest">
+<groups>
+	<run>
+		<include name="smokeTest"></include>
+		<include name="regressionTest"></include>
+	</run>
+</groups>
+    <classes>
+      <class name="Selenium_day9.OpenBrowser"/>
+      <class name="Selenium_day9.NewTest"/>
+      <class name="Selenium_day9.testPriorityInTestNG"/>
+ 	  <class name="Selenium_day9.Grouping_testNG"/>
+    </classes>
+  </test> <!-- SmokeTest -->
+</suite> <!-- Suite -->

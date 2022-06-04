@@ -1,0 +1,14 @@
+There are 8 element locator tech:
+
+Chrome => chromedriver.exe 
+firefox => geckodriver.exe
+Internet explorer => iedriver.exe
+
+ 1.id
+ 2.name
+ 3.classname
+ 4.tagname
+ 5.cssSelector
+ 6.linkText
+ 7.partialLinkText
+ 8.xpath
